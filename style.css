@@ -1,0 +1,39 @@
+.heading {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading>h1>a {
+    text-decoration: none;
+}
+
+.nav-items>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items>ul>li {
+    padding: 15px;
+}
+
+.card{
+    width: 200px;
+    border: 2px solid orange;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.card > h2 , h3, h4 {
+    margin: 2px;
+}
+
+.card > img {
+    width: 100%;
+    margin: bottom -35px ;
+}
+.restuarant-card{
+    display: flex;
+}
